@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Портфолио</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_inner">
+                <div class="user">
+                    <img class="user_avatar" src="images/avatar_photo.png" alt="">
+                    <div class="user_content">
+                        <div class="user_name">Alexander  Doroshchuk</div>
+                        <div class="user_prof">Web Developer</div>
+                    </div>
+                </div>
+
+                <div class="nav" id="nav">
+                    <a class="nav_link" href="#" data-scroll="#work">Проекты</a>
+                    <a class="nav_link" href="#" data-scroll="#about">Обо мне</a>
+                    
+                    <div class="dropdown">
+                        <button class="dropbtn">Контакты</button>
+                        <div class="dropdown-content">
+                            <a style="color:#79797a; font-size: 14px; " href="tel:+79823093785">+7(982)309-37-85</a>
+                            <a style="color:#79797a; padding-left: 20px; font-size: 14px;" href="mailto:doroshchuk.a.a@gmail.com">doroshchuk.a.a@gmail.com</a>
+                        
+                      
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="intro">
+        <div class="container">
+            <div class="intro_inner">
+                <div class="intro_content">
+                    <h2 class="intro_subtitle">Привет! Меня зовут</h2>
+                    <h1 class="intro_title">Александр <br> Дорощук</h1>
+                    <div class="intro_text">Я являюсь веб-разработчиком</div>
+
+                    <div class="social">
+
+                        <a class="social_link" target="_blank" href="whatsapp://send?phone=+79823093785">
+                            <img src="images/whatsapp.png" alt="whatsapp">  
+                            
+                            
+                        </a>
+                        <a class="social_link"  href="tg://resolve?domain=AlexanderDK" target="_blank">
+                            <img src="images/Telegram.png" alt="Telegram">
+                                                <a/>
+
+                        <a class="social_link"  target="_blank" href="https://join.skype.com/invite/HbQXRZO5kGcm">
+                            <img src="images/Skype.png" alt="Scype">
+                        
+                        <a/>
+
+                    </div>
+
+                    <button class="btn" type="button" data-modal="#modal_resume">Моё резюме</button>
+                </div>
+
+                <img class="intro_photo" src="images/photo_2.png" alt="Моя фотография">
+            </div>
+        </div>
+    </div>
+
+    <div class="works" id="work">
+        <div class="container">
+            <h3 class="text_center">Несколько моих проектов</h3>
+
+            <div class="portfolio">
+
+                <div class="work">
+                    <a href="https://grunberg.it" target="blank"> <img class="work_photo" src="images/grnberg_green 1.png"   alt="Grunberg"> </a>
+                     <div class="work_content">
+                         <div class="work_cat">Категория: вебсайт</div>
+                         <div class="work_title">
+                             "GRUNBERG" COMPANY
+                             </div>
+                     </div>
+                 </div>            
+                 <div class="work">
+                    <a href="https://atomtor.ru" target="blank"> <img class="work_photo" src="images/Атом_ТОР.png"   alt="Атомтор"> </a>
+                     <div class="work_content">
+                         <div class="work_cat">Категория: вебсайт</div>
+                         <div class="work_title">
+                             Компания "АТОМ-ТОР"
+                             </div>
+                     </div>
+                 </div>
+                 
+                 <div class="work">
+                    <a href="https://betsy.it" target="blank"> <img class="work_photo" src="images/betsy_logo.png"   alt="Betsy"> </a>
+                     <div class="work_content">
+                         <div class="work_cat">Категория: вебсайт</div>
+                         <div class="work_title">
+                             "BETSY" COMPANY
+                             </div>
+                     </div>
+                 </div>               
+
+
+
+                <div class="work">
+                    <a href="https://keddo.com" target="blank"> <img class="work_photo" src="images/KEDDO.png"   alt="KEDDO"> </a>
+                     <div class="work_content">
+                         <div class="work_cat">Категория: вебсайт</div>
+                         <div class="work_title">
+                             "KEDDO" COMPANY
+                             </div>
+                     </div>
+                 </div>
+                 <div class="work">
+                    <a href="http://crosbysport.uk" target="blank"> <img class="work_photo" src="images/crosby logo.png"   alt="crosby"> </a>
+                     <div class="work_content">
+                         <div class="work_cat">Категория: вебсайт</div>
+                         <div class="work_title">
+                             "CROSBY" Company
+                             </div> 
+                     </div> 
+                 </div>
+                 <div class="work">
+                    <a href="http://analpa.ru"  target="blank"> <img class="work_photo" src="images/analpa.png"   alt="analpa.ru"> </a>
+                     <div class="work_content">
+                         <div class="work_cat">Категория: вебсайт</div>
+                         <div class="work_title">
+                             Компания "ANALPA" 
+                             </div>
+                     </div>
+                 </div>
+                    <div class="work">
+                        <a href="https://west-import.com" target="blank"> <img class="work_photo" src="images/west-import.png" alt="west-import"></a>
+                        <div class="work_content">
+                            <div class="work_cat">Категория: вебсайт</div>
+                            <div class="work_title">
+                                "WEST IMPORT" TEAM
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <a href="https://emilia-msk.ru" target="blank"> <img class="work_photo" src="images/Emilia.png"   alt="Emilia"> </a>
+                         <div class="work_content">
+                             <div class="work_cat">Категория: вебсайт</div>
+                             <div class="work_title">
+                                ООО «Эмилия» 
+                                 </div>
+                         </div>
+                     </div>
+
+
+
+                        <div class="work">
+                            <a href="http://wineasie.hk" target="blank"> <img class="work_photo" src="images/wineasie-logo-1.png"   alt="Wineasie"> </a>
+                             <div class="work_content">
+                                 <div class="work_cat">Категория: вебсайт</div>
+                                 <div class="work_title">
+                                     "Wineasie" COMPANY
+                                     </div>
+                             </div>
+                         </div>
+
+                            
+                            
+                            
+
+            </div>
+        </div>
+    </div>
+    
+   
+    <div class="about" id="about"> 
+        <div class="container">
+            <div class="about_inner">
+                <img class="about_photo" src="images/designer_photo_1.jpg" alt="Моё второе фото">
+
+                <div class="about_content">
+                    <h3 class="about_title">Кто я?</h3>
+                    <h2 class="about_bigtitle">обо мне</h2>
+                    <div class="about_text">
+                        <p>Занимаюсь разработкой сайтов как для корпоративных клиентов, так и для друзей и знакомых, потому что это не только работа, а и хобби и любимое занятие! </p>
+                        <p>В прошлом работал инженером, так что с точностью исполню все ваши пожелания, а так же могу исправить любые недочёты в вашем текущем проекте! </p>
+                        <p>Если вы хотите сделать сайт, электронный магазин или воплотить любую другую задачу на простарах интернета - доверьте эту задачу мне! </p>
+                    </div>
+
+                    <button class="btn" type="button" data-modal="#modal_resume">Моё резюме</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ 
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_inner">
+                <div class="footer_info">
+                    <div class="footer_copyright">
+                        &copy; 2022 - Alexander Doroshchuk
+                    </div>
+
+          
+
+                <div class="footer_social">
+
+                    <a class="footer_link" href="whatsapp://send?phone=+79823093785">
+                        <img src="images/WhatsApp_white.png" alt="">
+                    </a>    
+                    </href=>
+                    <a class="footer_link" href="tg://resolve?domain=AlexanderDK">
+                        <img src="images/Telegram_white.png" alt="">
+                    </a>
+                    <a class="footer_link"  target="_blank" href="https://join.skype.com/invite/HbQXRZO5kGcm">
+                        <img src="images/Skype_white.png" alt="Skype">
+                    </a>
+                </div>
+            </div>
+
+                   
+                    
+                    <div class="footer_nav">
+                        <a class="footer_nav_link"  target="_blank" href="tel:+79823093785">
+                            <img src="images/phone-1.png" alt="phone">
+                        <a class="footer_nav_link"  href="tel:+79823093785">+7 (982) 309 37 85</a> 
+                    </href=>
+
+                        <a class="footer_nav_link" href="mailto:doroshchuk.a.a@gmail.com"> 
+                            <img src="images/mail.png" alt="">
+                            <a class="footer_nav_link"  href="mailto:doroshchuk.a.a@gmail.com">doroshchuk.a.a@gmail.com</a> 
+                        </href=>
+
+                        
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+    
+    <div class="modal" id="modal_resume">       
+        <div class="modal_dialog">
+            <h3 class="modal_title">Резюме</h3>
+            <img class="modal_photo" src="images/resume.jpg" alt="">
+            <a class="btn btn_edit btn_modal" href="images/resume.jpg" target="_blank" >Скачать</a>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
